@@ -1,0 +1,413 @@
+\documentclass[11pt,fontset=none]{ctexart}
+\usepackage[a4paper,margin=2.1cm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,array,xcolor,tcolorbox,enumitem,fancyhdr,lastpage,hyperref}
+\setCJKmainfont{Songti SC}
+\setCJKsansfont{PingFang SC}
+\setmainfont{Times New Roman}
+\definecolor{navy}{HTML}{17365D}
+\definecolor{blue}{HTML}{1F5A94}
+\definecolor{lightblue}{HTML}{EEF5FB}
+\definecolor{orange}{HTML}{C65911}
+\hypersetup{colorlinks=true,linkcolor=navy,urlcolor=blue}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.35em}
+\setlist[itemize]{leftmargin=1.7em,itemsep=0.15em,topsep=0.2em}
+\setlist[enumerate]{leftmargin=2em,itemsep=0.15em,topsep=0.2em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small EE115 Analog Circuits · Lecture 3}
+\fancyhead[R]{\small 理想运算放大器}
+\fancyfoot[C]{\small \thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\newtcolorbox{keybox}[1][]{colback=lightblue,colframe=blue,boxrule=0.6pt,arc=1.5mm,left=2mm,right=2mm,top=1mm,bottom=1mm,#1}
+\newtcolorbox{warnbox}[1][]{colback=orange!6,colframe=orange,boxrule=0.6pt,arc=1.5mm,left=2mm,right=2mm,top=1mm,bottom=1mm,#1}
+\newcommand{\vo}{v_o}
+\newcommand{\vi}{v_i}
+\newcommand{\vp}{v_+}
+\newcommand{\vn}{v_-}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Lecture 3：理想运算放大器知识点整理}\par
+  \vspace{0.4em}
+  {\large Ideal Op Amp · Inverting · Non-inverting · Difference Amplifier}\par
+  \vspace{0.3em}
+  {\small 对应课件第 2--15 张；复习导向整理}
+\end{center}
+
+\begin{keybox}
+\textbf{本讲主线：}先用理想运放的两个分析规则（\textbf{虚断、虚短}），再结合节点电流法求闭环增益；随后比较反相、同相结构，最后把它们组合成差分放大器，并用 CMRR 衡量抑制共模信号的能力。
+\end{keybox}
+
+\section{理想运放模型}
+
+运放的开环关系为
+\[
+  \vo=A(\vp-\vn),
+\]
+其中 $A$ 是开环电压增益。理想运放假设如下：
+\begin{itemize}
+  \item 输入电阻 $R_{in}\to\infty$，所以 $i_+=i_-=0$（\textbf{虚断}）；
+  \item 输出电阻 $R_o=0$；
+  \item 开环增益 $A\to\infty$；
+  \item 带宽无限；
+  \item 共模抑制能力无限，即只响应差模输入。
+\end{itemize}
+
+当电路存在\textbf{负反馈}且运放工作在线性区时，输出电压有限而 $A\to\infty$，因此
+\[
+  \vp-\vn\to 0 \quad\Rightarrow\quad \vp=\vn
+\]
+称为\textbf{虚短}。虚短只表示两输入端电位相同，\textbf{不表示两端被导线连接，也不表示有电流流过}。
+
+\begin{warnbox}
+\textbf{适用条件：}“虚短”依赖负反馈与线性工作区；若输出已饱和，或反馈为正反馈，就不能直接使用。理想模型也不代表输出能超过电源轨。
+\end{warnbox}
+
+\section{反相放大器（Inverting Amplifier）}
+
+同相端接地，输入经 $R_1$ 接到反相端，输出经 $R_2$ 反馈到反相端。由
+\[
+  \vp=0,\qquad \vn=\vp=0
+\]
+可知反相端为\textbf{虚地}。又因为运放输入电流为零，在反相端列 KCL：
+\[
+  \frac{\vi-0}{R_1}=\frac{0-\vo}{R_2}.
+\]
+于是闭环电压增益为
+\begin{keybox}
+\[
+  \boxed{\frac{\vo}{\vi}=-\frac{R_2}{R_1}}
+\]
+负号表示输出相对输入反相 $180^\circ$；增益大小由外部电阻比决定。
+\end{keybox}
+
+\subsection{有限开环增益的影响}
+
+若 $A$ 有限，同相端仍接地，则
+\[
+  \vo=A(0-\vn)\quad\Rightarrow\quad \vn=-\frac{\vo}{A}.
+\]
+在反相端列 KCL，可得
+\[
+  \boxed{
+  G\equiv\frac{\vo}{\vi}
+  =\frac{-R_2/R_1}{1+\dfrac{1+R_2/R_1}{A}}
+  }.
+\]
+当 $A\gg 1+R_2/R_1$ 时，才可近似为 $-R_2/R_1$。有限 $A$ 使闭环增益的绝对值略小于理想值。
+
+\subsection{输入与输出电阻}
+
+理想情况下，输入端看到的就是 $R_1$：
+\[
+  \boxed{R_i=R_1}.
+\]
+理想运放本身的输出电阻为零，因此闭环输出电阻亦为
+\[
+  \boxed{R_o=0}.
+\]
+一般求输出电阻的方法是：将独立输入源置零，在输出端加测试源，然后求 $R_o=v_t/i_t$。
+
+\subsection{加权求和器（Weighted Summer）}
+
+多个输入 $v_1,\ldots,v_n$ 分别通过 $R_1,\ldots,R_n$ 接到同一个反相节点，反馈电阻为 $R_f$。由虚地和 KCL：
+\[
+  \boxed{
+  \vo=-\left(\frac{R_f}{R_1}v_1+\frac{R_f}{R_2}v_2+\cdots+\frac{R_f}{R_n}v_n\right)
+  }.
+\]
+每一路权重为 $-R_f/R_k$。若所有输入电阻相等，则输出是各输入之和乘以同一反相比例系数。
+
+\section{同相放大器（Non-inverting Amplifier）}
+
+输入直接接同相端，反相端由 $R_2$（接输出）和 $R_1$（接地）构成反馈分压。理想运放下
+\[
+  \vn=\vp=\vi,
+  \qquad
+  \vn=\vo\frac{R_1}{R_1+R_2}.
+\]
+所以
+\begin{keybox}
+\[
+  \boxed{\frac{\vo}{\vi}=1+\frac{R_2}{R_1}}
+\]
+同相结构不改变极性，且闭环增益必不小于 1。
+\end{keybox}
+
+\subsection{有限开环增益的影响}
+
+定义理想噪声增益（也是理想闭环增益）
+\[
+  G_0=1+\frac{R_2}{R_1},
+\]
+则有限 $A$ 时
+\[
+  \boxed{
+  G\equiv\frac{\vo}{\vi}
+  =\frac{1+R_2/R_1}{1+\dfrac{1+R_2/R_1}{A}}
+  =\frac{G_0}{1+G_0/A}
+  }.
+\]
+同样，当 $A\gg G_0$ 时，有限增益误差才小。
+
+\subsection{输入与输出电阻}
+
+理想同相放大器输入直接连接到运放输入端，故
+\[
+  \boxed{R_i=\infty,\qquad R_o=0}.
+\]
+这使同相结构适合缓冲高内阻信号源。
+
+\section{电压跟随器（Voltage Follower）}
+
+把输出直接反馈到反相端，即同相放大器在 $R_2=0,\ R_1\to\infty$ 的极限情形：
+\[
+  \boxed{\vo=\vi,\qquad A_v=1}.
+\]
+虽然电压增益为 1，但它具有高输入电阻、低输出电阻，可以实现\textbf{阻抗变换/级间隔离}，并向负载提供更大的驱动电流，因此仍可有较大的电流增益和功率增益。
+
+\section{等效输入电阻 \texorpdfstring{$R_i$}{Ri} 与输出电阻 \texorpdfstring{$R_o$}{Ro} 的求法}
+
+\subsection{先理解“端口”是什么}
+
+\textbf{端口不是一个节点，而是电路与外部连接的一对端子。}设两个端子为 $a$、$b$，端口电压和端口电流规定为
+\[
+  v_{ab}=v_a-v_b,
+  \qquad
+  i=\text{从端子 }a\text{ 流入电路、从端子 }b\text{ 流出的电流}.
+\]
+
+\begin{center}
+\begin{tikzpicture}[>=stealth,thick]
+  \draw[rounded corners=2mm,fill=lightblue] (3,0) rectangle (7,2.2);
+  \node at (5,1.1) {被测电路};
+  \draw (1,1.65) -- (3,1.65);
+  \draw (1,0.55) -- (3,0.55);
+  \fill (3,1.65) circle (2pt);
+  \fill (3,0.55) circle (2pt);
+  \node[left] at (1,1.65) {端子 $a$};
+  \node[left] at (1,0.55) {端子 $b$};
+  \draw[->,blue] (1.65,1.9) -- (2.7,1.9) node[midway,above] {$i$};
+  \draw[->,blue] (2.7,0.3) -- (1.65,0.3) node[midway,below] {$i$};
+  \node[blue] at (1.9,1.1) {$v_{ab}=v_a-v_b$};
+\end{tikzpicture}
+\end{center}
+
+因此，从这对端子“向电路里面看”得到的等效电阻就是
+\begin{keybox}
+\[
+  \boxed{R_{\mathrm{eq}}=\frac{\text{端口两端的电压}}{\text{从端口流入电路的电流}}
+  =\frac{v_{ab}}{i}}.
+\]
+“向里面看”是指站在外部信号源或负载的位置，把端口右侧的整个电路等效成一个电阻。
+\end{keybox}
+
+常见端口有三种：
+\begin{itemize}
+  \item \textbf{单端输入端口：}一个端子是输入节点，另一个端子是地。电路图虽然只突出输入节点，但地仍是端口的第二个端子。
+  \item \textbf{输出端口：}一个端子是输出节点，另一个端子通常是地；负载就接在这两个端子之间。
+  \item \textbf{差分输入端口：}两个端子分别是两个输入节点，端口电压为 $v_{I2}-v_{I1}$，不一定以地为端口端子。
+\end{itemize}
+
+\begin{warnbox}
+同一个电路从不同端口观察，等效电阻通常不同。因此题目写“求等效电阻”时，第一步必须确认：\textbf{从哪两个端子看进去？端口电压如何定义？端口电流从哪一端流入？}
+\end{warnbox}
+
+\subsection{统一原则：端口测试源法}
+
+等效电阻本质上是从指定端口向电路内部看进去的电压、电流之比。计算前必须先说明\textbf{端口位置}以及电流的参考方向。
+
+\begin{keybox}
+\textbf{输入电阻：}在输入端施加测试电压 $v_t$（也可直接保留输入 $v_i$），求流入电路的电流 $i_t$：
+\[
+  \boxed{R_i=\frac{v_t}{i_t}=\frac{v_i}{i_i}}.
+\]
+\textbf{输出电阻：}先将所有\textbf{独立输入源置零}，再在输出端施加测试电压或测试电流，求对应的端口电流或端口电压：
+\[
+  \boxed{R_o=\frac{v_t}{i_t}}.
+\]
+若输出端直接含有理想电压源，应优先施加\textbf{测试电流源}，避免两个理想电压源并联冲突。
+\end{keybox}
+
+独立源置零的规则是：理想独立电压源以短路代替，理想独立电流源以开路代替；\textbf{受控源不能置零}。运放的受控源以及反馈网络都必须保留，因为它们会改变端口等效电阻。
+
+\subsection{反相放大器的 \texorpdfstring{$R_i$}{Ri}}
+
+对输入端施加 $v_i$。理想运放在负反馈线性区内有 $v_-=v_+=0$，所以输入端通过 $R_1$ 看到虚地：
+\[
+  i_i=\frac{v_i-v_-}{R_1}=\frac{v_i}{R_1}.
+\]
+因此
+\[
+  \boxed{R_i=\frac{v_i}{i_i}=R_1}.
+\]
+这说明“运放输入电阻无限大”不等于“整个反相放大器的输入电阻无限大”；信号源看到的是外接电阻 $R_1$。
+
+\subsection{同相放大器与跟随器的 \texorpdfstring{$R_i$}{Ri}}
+
+输入直接接到理想运放的同相端，且 $i_+=0$，故
+\[
+  i_i=0
+  \quad\Rightarrow\quad
+  \boxed{R_i=\frac{v_i}{i_i}\to\infty}.
+\]
+电压跟随器具有同样的结论。实际运放的输入偏置电流不为零，因此实际输入电阻只是很大而不是无限大。
+
+\subsection{理想闭环运放电路的 \texorpdfstring{$R_o$}{Ro}}
+
+以反相放大器为例：先令输入独立电压源 $v_i=0$，即把它短路；保留 $R_1$、$R_2$、运放受控源和反馈。然后在输出端接测试电流源 $i_t$，测量由此产生的端口电压 $v_t$。
+
+理想运放的输出端等效为内阻为零的受控电压源，所以它可以提供所需电流而不产生内部压降：
+\[
+  \boxed{R_o=\frac{v_t}{i_t}=0}.
+\]
+同相放大器、电压跟随器和课件中的差分放大器，只要采用理想运放模型，其闭环输出电阻也都是 0。
+
+\begin{warnbox}
+若题目只给“有限开环增益 $A$”，但运放模型的输出电阻仍设为零，则 $R_o$ 仍为零。要得到非零输出电阻，模型中必须给出运放本身的输出电阻 $r_o$；负反馈通常把它降低为近似
+\[
+  R_{o,\mathrm{fb}}\approx\frac{r_o}{1+T},
+\]
+其中 $T$ 为环路增益。具体数值必须依据题目给出的完整小信号模型计算。
+\end{warnbox}
+
+\subsection{差分输入电阻的测试方法}
+
+差模输入电阻是\textbf{从两个输入端之间}看进去的电阻。跨两输入端施加测试电压 $v_{Id}$，求从信号源流出的差模电流 $i_{Id}$：
+\[
+  \boxed{R_{id}=\frac{v_{Id}}{i_{Id}}}.
+\]
+在课件的对称条件 $R_3=R_1,\ R_4=R_2$ 下，两输入端虚短，使差模电流依次通过两个 $R_1$，所以
+\[
+  i_{Id}=\frac{v_{Id}}{2R_1}
+  \quad\Rightarrow\quad
+  \boxed{R_{id}=2R_1}.
+\]
+差模输入电阻、某一个单端输入对地的输入电阻、共模输入电阻是三种不同的端口定义，不能混用。
+
+\section{差分放大器（Difference Amplifier）}
+
+\subsection{差模与共模分解}
+
+设两输入为 $v_{I1}$ 与 $v_{I2}$，定义
+\[
+  v_{Id}=v_{I2}-v_{I1},
+  \qquad
+  v_{Icm}=\frac{v_{I1}+v_{I2}}{2}.
+\]
+反解得到
+\[
+  v_{I1}=v_{Icm}-\frac{v_{Id}}{2},
+  \qquad
+  v_{I2}=v_{Icm}+\frac{v_{Id}}{2}.
+\]
+一般差分放大器可写成
+\[
+  \boxed{\vo=A_d v_{Id}+A_{cm}v_{Icm}},
+\]
+其中 $A_d$ 为差模增益，$A_{cm}$ 为共模增益。理想差分放大器希望 $A_{cm}=0$。
+
+\subsection{四电阻差分放大器的差模增益}
+
+课件电路中，反相支路为 $R_1,R_2$，同相分压支路为 $R_3,R_4$。利用叠加：
+\[
+  v_{o1}=-\frac{R_2}{R_1}v_{I1},
+\]
+\[
+  v_{o2}=\left(\frac{R_4}{R_3+R_4}\right)
+          \left(1+\frac{R_2}{R_1}\right)v_{I2}.
+\]
+当电阻比满足
+\begin{keybox}
+\[
+  \boxed{\frac{R_4}{R_3}=\frac{R_2}{R_1}}
+\]
+时，输出化简为
+\[
+  \boxed{\vo=\frac{R_2}{R_1}(v_{I2}-v_{I1})
+  =\frac{R_2}{R_1}v_{Id}},
+  \qquad
+  \boxed{A_d=\frac{R_2}{R_1}}.
+\]
+\end{keybox}
+
+\subsection{共模增益与 CMRR}
+
+令 $v_{I1}=v_{I2}=v_{Icm}$，课件给出的共模增益为
+\[
+  \boxed{
+  A_{cm}\equiv\frac{\vo}{v_{Icm}}
+  =\frac{R_4}{R_3+R_4}
+  \left(1-\frac{R_2R_3}{R_1R_4}\right)
+  }.
+\]
+当 $R_4/R_3=R_2/R_1$ 时，$A_{cm}=0$。因此\textbf{电阻比匹配}是实现共模抑制的关键；实际电阻误差会使 $A_{cm}\ne0$。
+
+共模抑制比定义为
+\[
+  \boxed{\mathrm{CMRR}=\left|\frac{A_d}{A_{cm}}\right|},
+  \qquad
+  \boxed{\mathrm{CMRR}_{\mathrm{dB}}=20\log_{10}\left|\frac{A_d}{A_{cm}}\right|}.
+\]
+CMRR 越大，放大器越能放大两输入之差并抑制两端共同出现的干扰。
+
+\subsection{差模输入电阻}
+
+在课件指定的对称情形 $R_3=R_1,\ R_4=R_2$ 下，理想运放两输入端虚短。差模信号源看到两个 $R_1$ 串联，因此
+\[
+  \boxed{R_{id}=2R_1}.
+\]
+该结论对应的是\textbf{两输入端之间的差模输入电阻}，不要与某一单端输入对地看到的电阻混淆。
+
+\section{常用解题流程}
+
+\begin{enumerate}
+  \item \textbf{先判断反馈类型：}确认是负反馈且输出未饱和，才使用虚短。
+  \item \textbf{写理想规则：}$i_+=i_-=0$；负反馈线性区内 $v_+=v_-$。
+  \item \textbf{选节点列 KCL：}通常在反相端列式最直接；同相端若接分压网络，先求 $v_+$。
+  \item \textbf{整理为所求比值：}如 $v_o/v_i$、$A_d$、$A_{cm}$ 或 $R_{in}$。
+  \item \textbf{做合理性检查：}反相结构应有负号；同相增益应 $\ge1$；理想跟随器增益应为 1；匹配差分放大器的共模输出应为 0。
+  \item \textbf{求输入电阻：}在指定输入端施加测试源，保留反馈与受控源，计算 $R_i=v_t/i_t$。
+  \item \textbf{求输出电阻：}独立源置零、受控源保留，在输出端施加测试源，计算 $R_o=v_t/i_t$。
+\end{enumerate}
+
+\section{公式速查表}
+
+\renewcommand{\arraystretch}{1.22}
+\begin{center}
+\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}p{0.43\textwidth}p{0.22\textwidth}}
+\toprule
+\textbf{电路/指标} & \textbf{核心公式} & \textbf{关键特征} \\
+\midrule
+理想运放 & $i_+=i_-=0$；负反馈时 $v_+=v_-$ & 虚断、虚短 \\
+反相放大器 & $A_v=-R_2/R_1$ & $R_i=R_1$，反相 \\
+同相放大器 & $A_v=1+R_2/R_1$ & $R_i=\infty$，同相 \\
+电压跟随器 & $A_v=1$ & 阻抗变换 \\
+加权求和器 & $v_o=-\sum_k(R_f/R_k)v_k$ & 多输入线性组合 \\
+差分放大器（匹配） & $v_o=(R_2/R_1)(v_{I2}-v_{I1})$ & $A_{cm}=0$ \\
+电阻比匹配 & $R_4/R_3=R_2/R_1$ & 决定共模抑制 \\
+CMRR（dB） & $20\log_{10}|A_d/A_{cm}|$ & 越大越好 \\
+差模输入电阻（对称） & $R_{id}=2R_1$ & 两输入端之间 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\clearpage
+\section{易错点}
+
+\begin{itemize}
+  \item 虚地不是实际接地；节点电压为 0，但它与地之间没有导线连接。
+  \item 虚短不意味着输入端短路，输入电流仍为零。
+  \item $R_o=0$ 是理想模型结论；实际运放输出能力受电源、电流和频率限制。
+  \item 有限开环增益会带来闭环增益误差；目标闭环增益越大，对 $A$ 的要求越高。
+  \item 差分放大器要抑制共模，不要求四个电阻全相等，但必须满足两组\textbf{电阻比}相等。
+  \item CMRR 的线性比值为 $|A_d/A_{cm}|$，写成 dB 时才乘 $20\log_{10}$。
+\end{itemize}
+
+\vfill
+{\small\color{gray}资料来源：EE115 Analog Circuits, Lecture 3（课件日期 2026-09-17）。本整理在课件公式基础上补充了适用条件、推导逻辑与易错点。}
+
+\end{document}
