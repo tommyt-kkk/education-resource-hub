@@ -8,7 +8,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1780482,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "考试与练习",
+    "downloadPath": "downloads/1-37.pdf"
   },
   {
     "id": "1-67",
@@ -19,7 +21,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 266166256,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "1-66",
@@ -30,7 +34,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 231799389,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "1-57",
@@ -41,7 +47,9 @@ window.COURSE_FILES = [
     "folder": "复习文件",
     "bytes": 211887,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "复习与总结",
+    "downloadPath": "downloads/1-57.pdf"
   },
   {
     "id": "1-40",
@@ -52,7 +60,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2994,
     "extension": "PY",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "代码与附件",
+    "downloadPath": "downloads/1-40.py"
   },
   {
     "id": "1-38",
@@ -63,7 +73,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2061296,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/1-38.pdf"
   },
   {
     "id": "1-39",
@@ -74,7 +86,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2051302,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/1-39.pdf"
   },
   {
     "id": "1-41",
@@ -85,7 +99,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 999606,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-41.pdf"
   },
   {
     "id": "1-58",
@@ -96,7 +112,9 @@ window.COURSE_FILES = [
     "folder": "复习文件",
     "bytes": 142679,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "复习与总结",
+    "downloadPath": "downloads/1-58.pdf"
   },
   {
     "id": "1-42",
@@ -107,7 +125,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 985746,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-42.pdf"
   },
   {
     "id": "1-59",
@@ -118,7 +138,9 @@ window.COURSE_FILES = [
     "folder": "复习文件",
     "bytes": 90521,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "复习与总结",
+    "downloadPath": "downloads/1-59.pdf"
   },
   {
     "id": "1-43",
@@ -129,7 +151,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 669512,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-43.pdf"
   },
   {
     "id": "1-60",
@@ -140,7 +164,9 @@ window.COURSE_FILES = [
     "folder": "复习文件",
     "bytes": 82655,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "复习与总结",
+    "downloadPath": "downloads/1-60.pdf"
   },
   {
     "id": "1-44",
@@ -151,7 +177,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 1266606,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-44.pdf"
   },
   {
     "id": "1-62",
@@ -162,7 +190,9 @@ window.COURSE_FILES = [
     "folder": "复习文件",
     "bytes": 101129,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "复习与总结",
+    "downloadPath": "downloads/1-62.pdf"
   },
   {
     "id": "1-61",
@@ -173,7 +203,9 @@ window.COURSE_FILES = [
     "folder": "复习文件",
     "bytes": 186108,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "复习与总结",
+    "downloadPath": "downloads/1-61.pdf"
   },
   {
     "id": "1-45",
@@ -184,7 +216,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 1636689,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-45.pdf"
   },
   {
     "id": "1-63",
@@ -195,7 +229,9 @@ window.COURSE_FILES = [
     "folder": "复习文件",
     "bytes": 109691,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "复习与总结",
+    "downloadPath": "downloads/1-63.pdf"
   },
   {
     "id": "1-46",
@@ -206,7 +242,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 940545,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-46.pdf"
   },
   {
     "id": "1-47",
@@ -217,7 +255,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 980709,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-47.pdf"
   },
   {
     "id": "1-48",
@@ -228,7 +268,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 718579,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-48.pdf"
   },
   {
     "id": "1-49",
@@ -239,7 +281,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 905839,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-49.pdf"
   },
   {
     "id": "1-50",
@@ -250,7 +294,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 1128910,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-50.pdf"
   },
   {
     "id": "1-51",
@@ -261,7 +307,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 1496596,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-51.pdf"
   },
   {
     "id": "1-52",
@@ -272,7 +320,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 827458,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-52.pdf"
   },
   {
     "id": "1-53",
@@ -283,7 +333,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 1245618,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-53.pdf"
   },
   {
     "id": "1-56",
@@ -294,7 +346,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 1094396,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-56.pdf"
   },
   {
     "id": "1-64",
@@ -305,7 +359,9 @@ window.COURSE_FILES = [
     "folder": "复习文件",
     "bytes": 98741,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "复习与总结",
+    "downloadPath": "downloads/1-64.pdf"
   },
   {
     "id": "1-54",
@@ -316,7 +372,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 1174395,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-54.pdf"
   },
   {
     "id": "1-65",
@@ -327,7 +385,9 @@ window.COURSE_FILES = [
     "folder": "复习文件",
     "bytes": 105329,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "复习与总结",
+    "downloadPath": "downloads/1-65.pdf"
   },
   {
     "id": "1-55",
@@ -338,7 +398,9 @@ window.COURSE_FILES = [
     "folder": "slides",
     "bytes": 1625258,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-55.pdf"
   },
   {
     "id": "1-68",
@@ -349,7 +411,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 301024,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "实验指导",
+    "downloadPath": "downloads/1-68.pdf"
   },
   {
     "id": "1-69",
@@ -360,7 +424,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 244473,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "实验指导",
+    "downloadPath": "downloads/1-69.pdf"
   },
   {
     "id": "1-70",
@@ -371,7 +437,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 263629,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "实验预习",
+    "downloadPath": "downloads/1-70.pdf"
   },
   {
     "id": "1-71",
@@ -382,7 +450,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 309391,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "实验预习",
+    "downloadPath": "downloads/1-71.pdf"
   },
   {
     "id": "1-72",
@@ -393,7 +463,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 161370,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "实验预习",
+    "downloadPath": "downloads/1-72.pdf"
   },
   {
     "id": "1-74",
@@ -404,7 +476,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 286027,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "实验资料",
+    "downloadPath": "downloads/1-74.pdf"
   },
   {
     "id": "1-73",
@@ -415,7 +489,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 188920,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "实验资料",
+    "downloadPath": "downloads/1-73.pdf"
   },
   {
     "id": "1-75",
@@ -426,7 +502,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 186878,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "实验指导",
+    "downloadPath": "downloads/1-75.pdf"
   },
   {
     "id": "1-76",
@@ -437,7 +515,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 3528292,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "预习报告",
+    "downloadPath": "downloads/1-76.pdf"
   },
   {
     "id": "1-78",
@@ -448,7 +528,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 3918133,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "预习报告",
+    "downloadPath": "downloads/1-78.pdf"
   },
   {
     "id": "1-77",
@@ -459,7 +541,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 3652756,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "预习报告",
+    "downloadPath": "downloads/1-77.pdf"
   },
   {
     "id": "1-98",
@@ -470,7 +554,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1896269,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "考试与练习",
+    "downloadPath": "downloads/1-98.pdf"
   },
   {
     "id": "1-99",
@@ -481,7 +567,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2073007,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "考试与练习",
+    "downloadPath": "downloads/1-99.pdf"
   },
   {
     "id": "1-100",
@@ -492,7 +580,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 183184,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "考试与练习",
+    "downloadPath": "downloads/1-100.pdf"
   },
   {
     "id": "1-103",
@@ -503,7 +593,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 30004633,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "1-110",
@@ -514,7 +606,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2426345,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-110.pdf"
   },
   {
     "id": "1-111",
@@ -525,7 +619,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2916055,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-111.pdf"
   },
   {
     "id": "1-112",
@@ -536,7 +632,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 8250398,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-112.pdf"
   },
   {
     "id": "1-109",
@@ -547,7 +645,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2261438,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-109.pdf"
   },
   {
     "id": "1-108",
@@ -558,7 +658,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2903142,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-108.pdf"
   },
   {
     "id": "1-113",
@@ -569,7 +671,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1450754,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-113.pdf"
   },
   {
     "id": "1-114",
@@ -580,7 +684,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 5194468,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-114.pdf"
   },
   {
     "id": "1-115",
@@ -591,7 +697,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2828021,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-115.pdf"
   },
   {
     "id": "1-116",
@@ -602,7 +710,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 5154110,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/1-116.pdf"
   },
   {
     "id": "1-107",
@@ -613,7 +723,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1094702,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "考试与练习",
+    "downloadPath": "downloads/1-107.pdf"
   },
   {
     "id": "1-106",
@@ -624,7 +736,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 978580,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "考试与练习",
+    "downloadPath": "downloads/1-106.pdf"
   },
   {
     "id": "1-105",
@@ -635,7 +749,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 205085,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "复习与总结",
+    "downloadPath": "downloads/1-105.pdf"
   },
   {
     "id": "1-104",
@@ -646,7 +762,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1579219,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "课程笔记",
+    "downloadPath": "downloads/1-104.pdf"
   },
   {
     "id": "1-102",
@@ -657,7 +775,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1609747,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/1-102.pdf"
   },
   {
     "id": "1-101",
@@ -668,7 +788,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 232518,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "课程笔记",
+    "downloadPath": "downloads/1-101.pdf"
   },
   {
     "id": "1-81",
@@ -679,7 +801,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 204088,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/1-81.pdf"
   },
   {
     "id": "1-82",
@@ -690,7 +814,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 5652806,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-82.pdf"
   },
   {
     "id": "1-83",
@@ -701,7 +827,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2729730,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-83.pdf"
   },
   {
     "id": "1-84",
@@ -712,7 +840,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 4910338,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-84.pdf"
   },
   {
     "id": "1-85",
@@ -723,7 +853,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 3887004,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-85.pdf"
   },
   {
     "id": "1-86",
@@ -734,7 +866,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2177000,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-86.pdf"
   },
   {
     "id": "1-87",
@@ -745,7 +879,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1618804,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-87.pdf"
   },
   {
     "id": "1-88",
@@ -756,7 +892,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1427472,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-88.pdf"
   },
   {
     "id": "1-89",
@@ -767,7 +905,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2137659,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-89.pdf"
   },
   {
     "id": "1-90",
@@ -778,7 +918,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 5448943,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-90.pdf"
   },
   {
     "id": "1-91",
@@ -789,7 +931,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 3554305,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-91.pdf"
   },
   {
     "id": "1-92",
@@ -800,7 +944,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2156086,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-92.pdf"
   },
   {
     "id": "1-93",
@@ -811,7 +957,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 5304106,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-93.pdf"
   },
   {
     "id": "1-94",
@@ -822,7 +970,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1292939,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-94.pdf"
   },
   {
     "id": "1-95",
@@ -833,7 +983,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1902713,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-95.pdf"
   },
   {
     "id": "1-96",
@@ -844,7 +996,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1902713,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-96.pdf"
   },
   {
     "id": "1-97",
@@ -855,7 +1009,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1885837,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-97.pdf"
   },
   {
     "id": "1-16",
@@ -866,7 +1022,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 112112,
     "extension": "DOCX",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/1-16.docx"
   },
   {
     "id": "1-17",
@@ -877,7 +1035,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 215360,
     "extension": "DOCX",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/1-17.docx"
   },
   {
     "id": "1-15",
@@ -888,7 +1048,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 190496,
     "extension": "DOCX",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/1-15.docx"
   },
   {
     "id": "1-36",
@@ -899,7 +1061,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 239666,
     "extension": "DOCX",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/1-36.docx"
   },
   {
     "id": "1-34",
@@ -910,7 +1074,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1850486,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/1-34.pdf"
   },
   {
     "id": "1-35",
@@ -921,7 +1087,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1516059,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/1-35.pdf"
   },
   {
     "id": "1-18",
@@ -932,7 +1100,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 3133579,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-18.pdf"
   },
   {
     "id": "1-19",
@@ -943,7 +1113,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 4094837,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-19.pdf"
   },
   {
     "id": "1-20",
@@ -954,7 +1126,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 5347498,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-20.pdf"
   },
   {
     "id": "1-21",
@@ -965,7 +1139,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1881681,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-21.pdf"
   },
   {
     "id": "1-22",
@@ -976,7 +1152,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 4327073,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-22.pdf"
   },
   {
     "id": "1-23",
@@ -987,7 +1165,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 5405321,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-23.pdf"
   },
   {
     "id": "1-33",
@@ -998,7 +1178,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 8422572,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-33.pdf"
   },
   {
     "id": "1-24",
@@ -1009,7 +1191,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 8050731,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-24.pdf"
   },
   {
     "id": "1-25",
@@ -1020,7 +1204,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 3010663,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-25.pdf"
   },
   {
     "id": "1-26",
@@ -1031,7 +1217,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 2962360,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-26.pdf"
   },
   {
     "id": "1-27",
@@ -1042,7 +1230,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 7449938,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-27.pdf"
   },
   {
     "id": "1-28",
@@ -1053,7 +1243,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 7449938,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-28.pdf"
   },
   {
     "id": "1-29",
@@ -1064,7 +1256,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 7672099,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-29.pdf"
   },
   {
     "id": "1-30",
@@ -1075,7 +1269,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 3420682,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-30.pdf"
   },
   {
     "id": "1-31",
@@ -1086,7 +1282,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 4720267,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-31.pdf"
   },
   {
     "id": "1-32",
@@ -1097,7 +1295,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 4769400,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-32.pdf"
   },
   {
     "id": "1-80",
@@ -1108,7 +1308,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 52534,
     "extension": "DOCX",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "报告与成果",
+    "downloadPath": "downloads/1-80.docx"
   },
   {
     "id": "1-79",
@@ -1119,7 +1321,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 225175,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "报告与成果",
+    "downloadPath": "downloads/1-79.pdf"
   },
   {
     "id": "1-2",
@@ -1130,7 +1334,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论 / 张璟-哲学",
     "bytes": 16190339,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-2.pdf"
   },
   {
     "id": "1-3",
@@ -1141,7 +1347,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论 / 张璟-哲学",
     "bytes": 6398683,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-3.pdf"
   },
   {
     "id": "1-4",
@@ -1152,7 +1360,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论 / 张璟-哲学",
     "bytes": 2525242,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-4.pdf"
   },
   {
     "id": "1-5",
@@ -1163,7 +1373,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论 / 张璟-哲学",
     "bytes": 2178518,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/1-5.pdf"
   },
   {
     "id": "1-6",
@@ -1174,7 +1386,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论 / 张璟-哲学",
     "bytes": 152017,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "考试与练习",
+    "downloadPath": "downloads/1-6.pdf"
   },
   {
     "id": "1-12",
@@ -1185,7 +1399,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论 / 方圆-历史",
     "bytes": 11557455,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "专题课件",
+    "downloadPath": "downloads/1-12.pdf"
   },
   {
     "id": "1-10",
@@ -1196,7 +1412,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论 / 方圆-历史",
     "bytes": 6950663,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "专题课件",
+    "downloadPath": "downloads/1-10.pdf"
   },
   {
     "id": "1-7",
@@ -1207,7 +1425,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论 / 方圆-历史",
     "bytes": 5229771,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "专题课件",
+    "downloadPath": "downloads/1-7.pdf"
   },
   {
     "id": "1-9",
@@ -1218,7 +1438,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论 / 方圆-历史",
     "bytes": 3807272,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "专题课件",
+    "downloadPath": "downloads/1-9.pdf"
   },
   {
     "id": "1-8",
@@ -1229,7 +1451,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论 / 方圆-历史",
     "bytes": 6537166,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "专题课件",
+    "downloadPath": "downloads/1-8.pdf"
   },
   {
     "id": "1-13",
@@ -1240,7 +1464,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论 / 白云-文学",
     "bytes": 6268054,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "专题课件",
+    "downloadPath": "downloads/1-13.pdf"
   },
   {
     "id": "1-14",
@@ -1251,7 +1477,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 17674,
     "extension": "DOCX",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "报告与成果",
+    "downloadPath": "downloads/1-14.docx"
   },
   {
     "id": "1-11",
@@ -1262,7 +1490,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论 / 方圆-历史",
     "bytes": 1739554,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "专题课件",
+    "downloadPath": "downloads/1-11.pdf"
   },
   {
     "id": "1-1",
@@ -1273,7 +1503,9 @@ window.COURSE_FILES = [
     "folder": "中华文明通论",
     "bytes": 18770,
     "extension": "DOCX",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "复习与总结",
+    "downloadPath": "downloads/1-1.docx"
   },
   {
     "id": "2-130",
@@ -1284,7 +1516,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 10009156,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "2-151",
@@ -1295,7 +1529,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 18673991,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "2-153",
@@ -1306,7 +1542,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 162462786,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "2-152",
@@ -1317,7 +1555,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 162462786,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "2-149",
@@ -1328,7 +1568,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 1743247,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "2-139",
@@ -1339,7 +1581,9 @@ window.COURSE_FILES = [
     "folder": "Homework / HW1",
     "bytes": 880216,
     "extension": "PNG",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-139.png"
   },
   {
     "id": "2-140",
@@ -1350,7 +1594,9 @@ window.COURSE_FILES = [
     "folder": "Homework / HW1",
     "bytes": 720892,
     "extension": "PNG",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-140.png"
   },
   {
     "id": "2-138",
@@ -1361,7 +1607,9 @@ window.COURSE_FILES = [
     "folder": "Homework / HW1",
     "bytes": 480,
     "extension": "PY",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-138.py"
   },
   {
     "id": "2-137",
@@ -1372,7 +1620,9 @@ window.COURSE_FILES = [
     "folder": "Homework / HW1",
     "bytes": 192729,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-137.pdf"
   },
   {
     "id": "2-144",
@@ -1383,7 +1633,9 @@ window.COURSE_FILES = [
     "folder": "Homework / HW1",
     "bytes": 723,
     "extension": "PY",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-144.py"
   },
   {
     "id": "2-150",
@@ -1394,7 +1646,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 13448695,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "2-148",
@@ -1405,7 +1659,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 8789399,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/2-148.pdf"
   },
   {
     "id": "2-141",
@@ -1416,7 +1672,9 @@ window.COURSE_FILES = [
     "folder": "Homework / HW1",
     "bytes": 169735,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-141.pdf"
   },
   {
     "id": "2-142",
@@ -1427,7 +1685,9 @@ window.COURSE_FILES = [
     "folder": "Homework / HW1",
     "bytes": 17845,
     "extension": "TEX",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-142.tex"
   },
   {
     "id": "2-145",
@@ -1438,7 +1698,9 @@ window.COURSE_FILES = [
     "folder": "Homework / HW2",
     "bytes": 130398,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-145.pdf"
   },
   {
     "id": "2-146",
@@ -1449,7 +1711,9 @@ window.COURSE_FILES = [
     "folder": "Homework / HW2",
     "bytes": 18597,
     "extension": "TEX",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-146.tex"
   },
   {
     "id": "2-147",
@@ -1460,7 +1724,9 @@ window.COURSE_FILES = [
     "folder": "Homework / HW2",
     "bytes": 14610,
     "extension": "TEX",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-147.tex"
   },
   {
     "id": "2-143",
@@ -1471,7 +1737,9 @@ window.COURSE_FILES = [
     "folder": "Homework / HW1",
     "bytes": 89304,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-143.pdf"
   },
   {
     "id": "2-162",
@@ -1482,7 +1750,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 160,
     "extension": "TEXTCLIPPING",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程说明与链接",
+    "downloadPath": "downloads/2-162.textclipping"
   },
   {
     "id": "2-159",
@@ -1493,7 +1763,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 25129017,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "2-157",
@@ -1504,7 +1776,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 107809054,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "2-158",
@@ -1515,7 +1789,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 39474804,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "2-154",
@@ -1526,7 +1802,9 @@ window.COURSE_FILES = [
     "folder": "Homework",
     "bytes": 2870669,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-154.pdf"
   },
   {
     "id": "2-160",
@@ -1537,7 +1815,9 @@ window.COURSE_FILES = [
     "folder": "课件",
     "bytes": 2877290,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/2-160.pdf"
   },
   {
     "id": "2-155",
@@ -1548,7 +1828,9 @@ window.COURSE_FILES = [
     "folder": "output / pdf",
     "bytes": 209541,
     "extension": "PDF",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "课程笔记",
+    "downloadPath": "downloads/2-155.pdf"
   },
   {
     "id": "2-156",
@@ -1559,7 +1841,9 @@ window.COURSE_FILES = [
     "folder": "output / pdf",
     "bytes": 15763,
     "extension": "TEX",
-    "kind": "note"
+    "kind": "note",
+    "subfolder": "课程笔记",
+    "downloadPath": "downloads/2-156.tex"
   },
   {
     "id": "2-161",
@@ -1570,7 +1854,9 @@ window.COURSE_FILES = [
     "folder": "课件",
     "bytes": 2363031,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/2-161.pdf"
   },
   {
     "id": "2-131",
@@ -1581,7 +1867,9 @@ window.COURSE_FILES = [
     "folder": "作业",
     "bytes": 994675,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-131.pdf"
   },
   {
     "id": "2-132",
@@ -1592,7 +1880,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 69914879,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "2-134",
@@ -1603,7 +1893,9 @@ window.COURSE_FILES = [
     "folder": "课件",
     "bytes": 1987567,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/2-134.pdf"
   },
   {
     "id": "2-135",
@@ -1614,7 +1906,9 @@ window.COURSE_FILES = [
     "folder": "课件",
     "bytes": 1979308,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/2-135.pdf"
   },
   {
     "id": "2-136",
@@ -1625,7 +1919,9 @@ window.COURSE_FILES = [
     "folder": "课件",
     "bytes": 1397526,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/2-136.pdf"
   },
   {
     "id": "2-133",
@@ -1636,7 +1932,9 @@ window.COURSE_FILES = [
     "folder": "课件",
     "bytes": 600019,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程说明与链接",
+    "downloadPath": "downloads/2-133.pdf"
   },
   {
     "id": "2-125",
@@ -1647,7 +1945,9 @@ window.COURSE_FILES = [
     "folder": "program / class_program",
     "bytes": 122,
     "extension": "C",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "代码与附件",
+    "downloadPath": "downloads/2-125.c"
   },
   {
     "id": "2-126",
@@ -1658,7 +1958,9 @@ window.COURSE_FILES = [
     "folder": "program / class_program",
     "bytes": 119,
     "extension": "C",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "代码与附件",
+    "downloadPath": "downloads/2-126.c"
   },
   {
     "id": "2-117",
@@ -1669,7 +1971,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 22725649,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "2-118",
@@ -1680,7 +1984,9 @@ window.COURSE_FILES = [
     "folder": "课程根目录",
     "bytes": 42137682,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "教材与参考书",
+    "downloadPath": null
   },
   {
     "id": "2-127",
@@ -1691,7 +1997,9 @@ window.COURSE_FILES = [
     "folder": "program",
     "bytes": 460,
     "extension": "C",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "代码与附件",
+    "downloadPath": "downloads/2-127.c"
   },
   {
     "id": "2-124",
@@ -1702,7 +2010,9 @@ window.COURSE_FILES = [
     "folder": "program / HW",
     "bytes": 15585,
     "extension": "ZIP",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-124.zip"
   },
   {
     "id": "2-128",
@@ -1713,7 +2023,9 @@ window.COURSE_FILES = [
     "folder": "课件",
     "bytes": 5708884,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/2-128.pdf"
   },
   {
     "id": "2-129",
@@ -1724,7 +2036,9 @@ window.COURSE_FILES = [
     "folder": "课件",
     "bytes": 9540981,
     "extension": "PDF",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "课程课件",
+    "downloadPath": "downloads/2-129.pdf"
   },
   {
     "id": "2-120",
@@ -1735,7 +2049,9 @@ window.COURSE_FILES = [
     "folder": "program / HW / HW1_student_starter",
     "bytes": 862,
     "extension": "C",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-120.c"
   },
   {
     "id": "2-121",
@@ -1746,7 +2062,9 @@ window.COURSE_FILES = [
     "folder": "program / HW / HW1_student_starter",
     "bytes": 646,
     "extension": "C",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-121.c"
   },
   {
     "id": "2-122",
@@ -1757,7 +2075,9 @@ window.COURSE_FILES = [
     "folder": "program / HW / HW1_student_starter",
     "bytes": 1051,
     "extension": "C",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-122.c"
   },
   {
     "id": "2-123",
@@ -1768,7 +2088,9 @@ window.COURSE_FILES = [
     "folder": "program / HW / HW1_student_starter",
     "bytes": 865,
     "extension": "C",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-123.c"
   },
   {
     "id": "2-119",
@@ -1779,6 +2101,8 @@ window.COURSE_FILES = [
     "folder": "program / HW / HW1_student_starter",
     "bytes": 3345,
     "extension": "MD",
-    "kind": "resource"
+    "kind": "resource",
+    "subfolder": "作业与报告",
+    "downloadPath": "downloads/2-119.md"
   }
 ];
